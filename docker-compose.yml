@@ -1,0 +1,13 @@
+services:
+  caddy-server:
+    image: aniket711/dns_caddy_service:amd64
+    init: true
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - /app/ecdsa.sec:/app/ecdsa.sec
+  html-app:
+    image: ayushranjan123/simple-html-app:latest
+    init: true
+    network_mode: host
+    restart: unless-stopped
