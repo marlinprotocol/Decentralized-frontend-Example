@@ -87,5 +87,8 @@ oyster-cvm deploy \
    ```
    https://{subdomain}.hostedapp.work
    ```
+   The website should look like this:
    
+![alt_text](https://github.com/marlinprotocol/Decentralized-frontend-Example/blob/master/Screenshot%20from%202025-08-27%2021-04-49.png)
+
 
