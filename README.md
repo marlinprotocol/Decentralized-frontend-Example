@@ -30,9 +30,8 @@ For more information on decentralized frontend read: [Blog](https://blog.marlin.
    
    Edit `docker-compose.yml` to reference your published image:
    ```yaml
-   version: '3.8'
    services:
-     frontend:
+     html-app:
        image: <your-username>/simple-html-app:latest
        # ... rest of configuration
    ```
@@ -89,3 +88,4 @@ oyster-cvm deploy \
    https://{subdomain}.hostedapp.work
    ```
    
+
